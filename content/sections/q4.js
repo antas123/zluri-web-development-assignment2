@@ -2,6 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import { Container, Wrapper } from "./style";
 import dropdown from "../images/dropdown-trial.png"
+import Imgcompo from "./Imgcompo";
 
 const Q3 = () => {
     return (
@@ -11,13 +12,14 @@ const Q3 = () => {
                     <h3>
                         <span>Task 4:</span> Build a component
                     </h3>
-                    <p>In this section, you are required to build a new component based on a Figma design and prototype. The component's function should be to change the image displayed based on the item selected in the dropdown. Implement this functionality using HTML, CSS, and JavaScript.</p>
+                    <p>Innn this section, you are required to build a new component based on a Figma design and prototype. The component's function should be to change the image displayed based on the item selected in the dropdown. Implement this functionality using HTML, CSS, and JavaScript.</p>
                 </Title>
                 <QuestionsGrid>
                     <AnswerDiv>
                     <a href="https://www.figma.com/file/kPxYk2EWTMsBmx4lAc92ni/Web-Dev-Assignment?type=design&node-id=16-26&mode=design&t=LMCvfVQBL3S5dApY-0" target="_blank" ><FigmaButton>Figma</FigmaButton></a>
                         <a href="https://www.figma.com/proto/kPxYk2EWTMsBmx4lAc92ni/Web-Dev-Assignment?type=design&node-id=36-559&t=YPqmYSs8rLq2ahId-1&scaling=min-zoom&page-id=30%3A35&starting-point-node-id=36%3A230" target="_blank" ><PrototypeButton>Prototype</PrototypeButton></a>
                     </AnswerDiv>
+                    <Imgcompo/>
                 </QuestionsGrid>
             </StyledContainer>
         </StyledWrapper>

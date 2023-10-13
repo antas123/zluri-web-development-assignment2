@@ -17,6 +17,8 @@ const Feedback = () => {
                 <p>
                     Add your reply here
                 </p>
+                <p>Hi! I really enjoyed the assignment 😍 ,I had given many assignment rounds for various <br></br> organizations before but this assignment was a unique way to test candidate's ability to code 😊</p>
+
             </FeedbackDiv>
             
         </Container>
