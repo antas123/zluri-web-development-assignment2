@@ -40,13 +40,14 @@ export default class Navigation extends Component {
 
     render() {
         const { mobileMenuOpen } = this.state
-
+       const ph = "8130643846";
+       const resume = "https://drive.google.com/file/d/1o8VhvVauUg2-poXEuoR1D5tCSnxqnjCv/view";
         return (
             <Nav {...this.props} scrolled={this.state.hasScrolled}>
                 <StyledContainer>
                     <Brand>
                         <Link to="/" onClick={this.closeMobileMenu}>
-                            <h2>ZLURI</h2>
+                            <h2>Antas Sachan</h2>
                         </Link>
                     </Brand>
                     <Mobile>
@@ -66,14 +67,14 @@ export default class Navigation extends Component {
                         <NavListWrapper>
                             <ul>
                                 <NavItem>
-                                    <a href="">Email</a>
+                                <a href="mailto:sachanantas6@gmail.com">Email to Antas</a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="">Contact me</a>
+                                <a href={`tel:${ph}`}>Contact Antas</a>
                                 </NavItem>
                                 <ActionsContainer>
-                                    <a href="https://get.zluri.com/request-demo">
-                                        <button>Resume</button>
+                                    <a href={resume}>
+                                        <button>Antas' Resume</button>
                                     </a>
                                 </ActionsContainer>
                             </ul>
@@ -86,15 +87,15 @@ export default class Navigation extends Component {
                             <NavListWrapperMobile mobile={true}>
                                 <ul>
                                     <NavItemMobile>
-                                        <a href="">Email</a>
+                                    <a href="mailto:sachanantas6@gmail.com">Email to Antas</a>
                                     </NavItemMobile>
                                     <NavItemMobile>
-                                        <a href="">Contact me</a>
+                                    <a href={`tel:${ph}`}>Contact Antas</a>
                                     </NavItemMobile>
                                     <ActionsContainer>
-                                        <a href="https://get.zluri.com/request-demo">
-                                            <button>Resume</button>
-                                        </a>
+                                    <a href={resume}>
+                                        <button>Antas' Resume</button>
+                                    </a>
                                     </ActionsContainer>
                                 </ul>
                             </NavListWrapperMobile>
